@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  body {
+    background-color: #121212;
+    color: white; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+  
+  .head-container {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: rgba(0, 0, 0, 0.9);
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+  }
+  
+  .head-container h2 {
+      font-size: 30px;
+      font-weight: bold;
+      margin: 0;
+  }
+  
+  .buton-container {
+      display: flex;
+      gap: 30px;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  
+  .buton-container button {
+      background-color: transparent;
+      color: white;
+      border: 0;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: all 0.3s ease;
+  }
+  
+  .buton-container button:hover {
+      background-color: #4c1db9;
+      color: white;
+      transform: scale(1.2);
+  }
+
+.mid-container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.artist-container {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 40%;
+    padding: 80px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    text-align: center;
+}
+.artist-container h3 {
+    position: absolute;
+    top: 16%;
+
+}
+
+.artist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    width: 200px;
+    text-align: center;
+}
+
+.artist:hover {
+    transform: scale(1.05);
+}
+
+.artist img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.artist h2 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.artist button {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.artist button:hover {
+    background-color: #4c1db9;
+}
